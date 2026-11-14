@@ -1,8 +1,8 @@
 {
   "language_name": "English",
   "meta": {
-    "title": "Enca Insurance | Health, Life, Auto and Home Insurance in West Park, FL",
-    "description": "Bilingual insurance agency in West Park, Florida. Help with Obamacare health plans, plus life, auto and home insurance. Call (786) 728-1828 for a free quote."
+    "title": "Enca Insurance | Health, Life, Auto and Home Insurance in Hallandale Beach, FL",
+    "description": "Bilingual insurance agency in Hallandale Beach, Florida. Help with Obamacare health plans, plus life, auto and home insurance. Call (786) 728-1828 for a free quote."
   },
   "nav": {
     "skip": "Skip to content",
@@ -15,12 +15,12 @@
   },
   "hero": {
     "title": "Health insurance help, in English and Spanish.",
-    "text": "We're a local agency in West Park. We compare health plans for you, check if you qualify for help paying for them, and sign you up. We also offer life, auto and home insurance.",
+    "text": "We're a local agency in Hallandale Beach. We compare health plans for you, check if you qualify for help paying for them, and sign you up. We also offer life, auto and home insurance.",
     "cta_call": "Call {phone}",
     "cta_quote": "Get a free quote",
-    "checks": ["Licensed agents", "Free quotes", "Office in West Park"],
+    "checks": ["Licensed agents", "Free quotes", "Office in Hallandale Beach"],
     "photo_alt": "Reception area of the Enca Insurance office",
-    "photo_caption": "Our office in West Park"
+    "photo_caption": "Our office in Hallandale Beach"
   },
   "enrollment": {
     "title": "Open Enrollment for 2027 health plans is happening now.",
@@ -57,7 +57,7 @@
   "about": {
     "title": "About Enca Insurance",
     "paragraphs": [
-      "Enca Insurance is an insurance agency in West Park, Florida. We help individuals and families find health, life, auto and home insurance, in English and Spanish.",
+      "Enca Insurance is an insurance agency in Hallandale Beach, Florida. We help individuals and families find health, life, auto and home insurance, in English and Spanish.",
       "We take the time to explain each option in plain words, so you know what you're paying for before you decide. Our priority is your safety.",
       "[Short history: when Enca started and why]"
     ],
@@ -110,7 +110,7 @@
       { "days": "Monday to Friday", "time": "9:00 AM – 5:00 PM" },
       { "days": "Saturday and Sunday", "time": "Closed" }
     ],
-    "map_title": "Map showing the Enca Insurance office in West Park"
+    "map_title": "Map showing the Enca Insurance office in Hallandale Beach"
   },
   "footer": {
     "tagline": "Our priority is your safety.",
@@ -130,7 +130,7 @@
     "updated": "Last updated: November 14, 2026",
     "back": "Back to the home page",
     "sections": [
-      { "title": "Who we are", "text": "This website belongs to Enca Insurance Agents Corp., 4200 SW 28th St, West Park, FL 33023." },
+      { "title": "Who we are", "text": "This website belongs to Enca Insurance Agents Corp., {address}." },
       { "title": "What we collect", "text": "When you use our quote form, we receive what you type: your name, phone number, email address, the type of insurance you're interested in, your preferred language and your message. We don't ask for Social Security numbers, policy numbers or payment details on this website." },
       { "title": "How we use it", "text": "We use this information only to answer your request and to give you insurance quotes. We don't sell or rent your information." },
       { "title": "Services we use", "text": "Requests from our quote form reach us by email. The map in our contact section is provided by Google Maps, which may use cookies under Google's own privacy policy. This website itself doesn't use tracking or advertising cookies." },

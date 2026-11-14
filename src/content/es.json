@@ -1,8 +1,8 @@
 {
   "language_name": "Español",
   "meta": {
-    "title": "Enca Insurance | Seguro de salud, vida, auto y hogar en West Park, FL",
-    "description": "Agencia de seguros bilingüe en West Park, Florida. Le ayudamos con planes de salud de Obamacare y con seguros de vida, auto y hogar. Llame al (786) 728-1828 para una cotización gratis."
+    "title": "Enca Insurance | Seguro de salud, vida, auto y hogar en Hallandale Beach, FL",
+    "description": "Agencia de seguros bilingüe en Hallandale Beach, Florida. Le ayudamos con planes de salud de Obamacare y con seguros de vida, auto y hogar. Llame al (786) 728-1828 para una cotización gratis."
   },
   "nav": {
     "skip": "Ir al contenido",
@@ -15,12 +15,12 @@
   },
   "hero": {
     "title": "Le ayudamos con su seguro de salud, en español y en inglés.",
-    "text": "Somos una agencia local en West Park. Comparamos planes de salud por usted, revisamos si califica para recibir ayuda con el pago y hacemos la inscripción. También ofrecemos seguros de vida, auto y hogar.",
+    "text": "Somos una agencia local en Hallandale Beach. Comparamos planes de salud por usted, revisamos si califica para recibir ayuda con el pago y hacemos la inscripción. También ofrecemos seguros de vida, auto y hogar.",
     "cta_call": "Llame al {phone}",
     "cta_quote": "Cotización gratis",
-    "checks": ["Agentes con licencia", "Cotizaciones gratis", "Oficina en West Park"],
+    "checks": ["Agentes con licencia", "Cotizaciones gratis", "Oficina en Hallandale Beach"],
     "photo_alt": "Recepción de la oficina de Enca Insurance",
-    "photo_caption": "Nuestra oficina en West Park"
+    "photo_caption": "Nuestra oficina en Hallandale Beach"
   },
   "enrollment": {
     "title": "La inscripción abierta para los planes de salud de 2027 ya comenzó.",
@@ -57,7 +57,7 @@
   "about": {
     "title": "Sobre Enca Insurance",
     "paragraphs": [
-      "Enca Insurance es una agencia de seguros en West Park, Florida. Ayudamos a personas y familias a encontrar seguros de salud, vida, auto y hogar, en español y en inglés.",
+      "Enca Insurance es una agencia de seguros en Hallandale Beach, Florida. Ayudamos a personas y familias a encontrar seguros de salud, vida, auto y hogar, en español y en inglés.",
       "Nos tomamos el tiempo de explicarle cada opción con palabras sencillas, para que sepa lo que está pagando antes de decidir. Su seguridad es nuestra prioridad.",
       "[Breve historia: cuándo y por qué empezó Enca]"
     ],
@@ -110,7 +110,7 @@
       { "days": "Lunes a viernes", "time": "9:00 a. m. – 5:00 p. m." },
       { "days": "Sábado y domingo", "time": "Cerrado" }
     ],
-    "map_title": "Mapa de la oficina de Enca Insurance en West Park"
+    "map_title": "Mapa de la oficina de Enca Insurance en Hallandale Beach"
   },
   "footer": {
     "tagline": "Su seguridad es nuestra prioridad.",
@@ -130,7 +130,7 @@
     "updated": "Última actualización: 14 de noviembre de 2026",
     "back": "Volver a la página principal",
     "sections": [
-      { "title": "Quiénes somos", "text": "Este sitio web pertenece a Enca Insurance Agents Corp., 4200 SW 28th St, West Park, FL 33023." },
+      { "title": "Quiénes somos", "text": "Este sitio web pertenece a Enca Insurance Agents Corp., {address}." },
       { "title": "Qué información recibimos", "text": "Cuando usa nuestro formulario de cotización, recibimos lo que usted escribe: su nombre, teléfono, correo electrónico, el tipo de seguro que le interesa, su idioma preferido y su mensaje. En este sitio web no pedimos números de Seguro Social, números de póliza ni datos de pago." },
       { "title": "Cómo la usamos", "text": "Usamos esta información solo para responder a su solicitud y darle cotizaciones de seguros. No vendemos ni alquilamos su información." },
       { "title": "Servicios que usamos", "text": "Las solicitudes del formulario de cotización nos llegan por correo electrónico. El mapa de la sección de contacto es de Google Maps, que puede usar cookies según su propia política de privacidad. Este sitio web no usa cookies de seguimiento ni de publicidad." },

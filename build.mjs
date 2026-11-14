@@ -26,7 +26,8 @@ const esc = (s = '') => String(s)
 
 const fill = (s = '') => String(s)
   .replaceAll('{phone}', S.phone_display)
-  .replaceAll('{email}', S.email);
+  .replaceAll('{email}', S.email)
+  .replaceAll('{address}', `${S.street}, ${S.city}, ${S.state} ${S.zip}`);
 
 // Text that is still a placeholder is written as [like this] and gets highlighted
 const isPlaceholder = (s = '') => /^\s*\[.*\]\s*$/.test(String(s));
@@ -43,7 +44,7 @@ const initials = (name = '') => {
 const linkOrHash = (v) => (v ? esc(v) : '#');
 
 const fullAddress = `${S.street}, ${S.city}, ${S.state} ${S.zip}`;
-const mapsQuery = encodeURIComponent(`${S.business_name}, ${fullAddress}`);
+const mapsQuery = encodeURIComponent(fullAddress);
 const hasFormKey = S.form_access_key && !/YOUR_|^\s*$/.test(S.form_access_key);
 
 const icon = {
