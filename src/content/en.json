@@ -63,8 +63,8 @@
     ],
     "team_title": "Our team",
     "team": [
-      { "name": "Emma Luz De la Cruz", "role": "Owner" },
-      { "name": "Carlos Andres Zambrano", "role": "Lead agent" }
+      { "name": "Emma Luz De la Cruz", "role": "Co-owner" },
+      { "name": "Carlos Andres Zambrano", "role": "Owner" }
     ],
     "image_alt": "An agent shaking hands with a couple after a meeting"
   },

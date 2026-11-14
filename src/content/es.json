@@ -63,8 +63,8 @@
     ],
     "team_title": "Nuestro equipo",
     "team": [
-      { "name": "Emma Luz De la Cruz", "role": "Propietaria" },
-      { "name": "Carlos Andres Zambrano", "role": "Agente principal" }
+      { "name": "Emma Luz De la Cruz", "role": "Copropietaria" },
+      { "name": "Carlos Andres Zambrano", "role": "Propietario" }
     ],
     "image_alt": "Un agente saluda a una pareja después de una reunión"
   },
