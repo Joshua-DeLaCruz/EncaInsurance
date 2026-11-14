@@ -1,0 +1,21 @@
+{
+  "business_name": "Enca Insurance",
+  "legal_name": "Enca Insurance Agents Corp.",
+  "site_url": "https://encainsurance.com",
+  "phone_display": "(786) 728-1828",
+  "phone_link": "+17867281828",
+  "whatsapp_number": "17867281828",
+  "email": "info@encainsurance.com",
+  "street": "4200 SW 28th St",
+  "city": "West Park",
+  "state": "FL",
+  "zip": "33023",
+  "opening_hours_schema": "Mo-Fr 09:00-17:00",
+  "agency_license": "[License #]",
+  "agent_in_charge": "[Name, License #]",
+  "facebook_url": "#",
+  "instagram_url": "#",
+  "google_reviews_url": "",
+  "form_access_key": "",
+  "show_open_enrollment": true
+}

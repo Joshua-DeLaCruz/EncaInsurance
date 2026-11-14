@@ -1,0 +1,147 @@
+{
+  "language_name": "English",
+  "meta": {
+    "title": "Enca Insurance | Health, Life, Auto and Home Insurance in West Park, FL",
+    "description": "Bilingual insurance agency in West Park, Florida. Help with Obamacare health plans, plus life, auto and home insurance. Call (786) 728-1828 for a free quote."
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "health": "Health",
+    "other": "Other insurance",
+    "about": "About us",
+    "contact": "Contact",
+    "quote": "Get a quote",
+    "call": "Call"
+  },
+  "hero": {
+    "title": "Health insurance help, in English and Spanish.",
+    "text": "We're a local agency in West Park. We compare health plans for you, check if you qualify for help paying for them, and sign you up. We also offer life, auto and home insurance.",
+    "cta_call": "Call {phone}",
+    "cta_quote": "Get a free quote",
+    "checks": ["Licensed agents", "Free quotes", "Office in West Park"],
+    "photo_alt": "Reception area of the Enca Insurance office",
+    "photo_caption": "Our office in West Park"
+  },
+  "enrollment": {
+    "title": "Open Enrollment for 2027 health plans is happening now.",
+    "text": "If you don't get health insurance through work, this is the time to sign up or change your plan for 2027.",
+    "next_label": "Next deadline",
+    "cta": "Book an appointment",
+    "steps": [
+      { "date": "2026-11-01", "label": "Nov 1, 2026", "text": "Open Enrollment starts." },
+      { "date": "2026-12-15", "label": "Dec 15, 2026", "text": "Last day to sign up for coverage that starts January 1." },
+      { "date": "2027-01-15", "label": "Jan 15, 2027", "text": "Open Enrollment ends. Plans chosen after December 15 start February 1." }
+    ]
+  },
+  "health": {
+    "title": "Health insurance (Obamacare)",
+    "text": "Affordable Care Act plans, often called Obamacare, are for people who don't get health insurance through work. Many people qualify for financial help that lowers the monthly cost. We find out what you qualify for and explain your options in plain words.",
+    "steps_title": "How we help",
+    "steps": [
+      { "title": "Tell us about your household", "text": "Who needs coverage, your ZIP code and your expected income for next year. By phone or at our office." },
+      { "title": "We compare your options", "text": "We look at the plans in your area, the monthly cost, the deductibles and which doctors are included." },
+      { "title": "We sign you up and stay with you", "text": "We complete your enrollment and help you during the year with questions, changes and renewals." }
+    ],
+    "note": "Our help is free. The plan costs the same as if you signed up on your own.",
+    "cta": "Ask about health insurance",
+    "image_alt": "A couple getting help choosing a health plan"
+  },
+  "other": {
+    "title": "Other insurance we offer",
+    "items": [
+      { "type": "Life", "title": "Life insurance", "text": "Protect your family's future. We help you choose between term and permanent life insurance, with an amount that fits your budget.", "link": "Ask about life insurance" },
+      { "type": "Auto", "title": "Auto insurance", "text": "Coverage that meets Florida's requirements, with options for more protection. We compare prices so you don't pay more than you need to.", "link": "Ask about auto insurance" },
+      { "type": "Home", "title": "Home insurance", "text": "Coverage for your home and your belongings, and help understanding your protection against hurricanes and floods.", "link": "Ask about home insurance" }
+    ]
+  },
+  "about": {
+    "title": "About Enca Insurance",
+    "paragraphs": [
+      "Enca Insurance is an insurance agency in West Park, Florida. We help individuals and families find health, life, auto and home insurance, in English and Spanish.",
+      "We take the time to explain each option in plain words, so you know what you're paying for before you decide. Our priority is your safety.",
+      "[Short history: when Enca started and why]"
+    ],
+    "team_title": "Our team",
+    "team": [
+      { "name": "Emma Luz De la Cruz", "role": "Owner" },
+      { "name": "Carlos Andres Zambrano", "role": "Lead agent" }
+    ],
+    "image_alt": "An agent shaking hands with a couple after a meeting"
+  },
+  "quote": {
+    "title": "Get a free quote",
+    "text": "Fill in the form and an agent will contact you. Prefer to talk now? Call us at {phone}.",
+    "name": "Full name",
+    "phone": "Phone number",
+    "email": "Email (optional)",
+    "type": "Type of insurance",
+    "language": "Preferred language",
+    "message": "Message (optional)",
+    "message_hint": "Please don't include Social Security or policy numbers.",
+    "types": [
+      { "value": "Health", "label": "Health (Obamacare)" },
+      { "value": "Life", "label": "Life" },
+      { "value": "Auto", "label": "Auto" },
+      { "value": "Home", "label": "Home" },
+      { "value": "Other", "label": "Other / not sure yet" }
+    ],
+    "languages": [
+      { "value": "English", "label": "English" },
+      { "value": "Spanish", "label": "Spanish" }
+    ],
+    "consent": "By sending this form, you agree that Enca Insurance may contact you by phone, text or email about your request.",
+    "submit": "Send my request",
+    "sending": "Sending…",
+    "success": "Thank you. We received your request and will contact you soon.",
+    "error": "Your request couldn't be sent. Please call us at {phone}.",
+    "mailto_note": "Your email app will open with your request filled in. Press send to finish."
+  },
+  "contact": {
+    "title": "Visit or call us",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "whatsapp_text": "Message us on WhatsApp",
+    "whatsapp_prefill": "Hello, I'd like information about insurance.",
+    "email": "Email",
+    "address": "Address",
+    "directions": "Get directions",
+    "hours_title": "Hours",
+    "hours": [
+      { "days": "Monday to Friday", "time": "9:00 AM – 5:00 PM" },
+      { "days": "Saturday and Sunday", "time": "Closed" }
+    ],
+    "map_title": "Map showing the Enca Insurance office in West Park"
+  },
+  "footer": {
+    "tagline": "Our priority is your safety.",
+    "license_label": "Florida agency license",
+    "agent_label": "Agent in charge",
+    "disclaimer": "Enca Insurance is a licensed insurance agency. We are not connected with HealthCare.gov or any government agency.",
+    "privacy": "Privacy policy",
+    "rights": "All rights reserved.",
+    "follow": "Follow us"
+  },
+  "mobile_bar": {
+    "call": "Call",
+    "quote": "Get a quote"
+  },
+  "privacy": {
+    "title": "Privacy policy",
+    "updated": "Last updated: November 14, 2026",
+    "back": "Back to the home page",
+    "sections": [
+      { "title": "Who we are", "text": "This website belongs to Enca Insurance Agents Corp., 4200 SW 28th St, West Park, FL 33023." },
+      { "title": "What we collect", "text": "When you use our quote form, we receive what you type: your name, phone number, email address, the type of insurance you're interested in, your preferred language and your message. We don't ask for Social Security numbers, policy numbers or payment details on this website." },
+      { "title": "How we use it", "text": "We use this information only to answer your request and to give you insurance quotes. We don't sell or rent your information." },
+      { "title": "Services we use", "text": "Our quote form is delivered to our email by Web3Forms. The map in our contact section is provided by Google Maps, which may use cookies under Google's own privacy policy. This website itself doesn't use tracking or advertising cookies." },
+      { "title": "How long we keep it", "text": "We keep your request for as long as we need it to help you and to meet our record-keeping duties as a licensed insurance agency." },
+      { "title": "Your choices", "text": "You can ask us at any time to update or delete the information you sent through this website. Contact us at {email} or {phone}." },
+      { "title": "Changes to this policy", "text": "If we change this policy, we'll update the date at the top of this page." }
+    ]
+  },
+  "not_found": {
+    "title": "Page not found",
+    "text": "This page doesn't exist. Go to the home page or call us at {phone}.",
+    "link": "Go to the home page"
+  }
+}

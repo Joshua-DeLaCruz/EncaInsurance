@@ -1,0 +1,813 @@
+# Pages CMS configuration (https://pagescms.org)
+# Lets the Enca team edit the website text without touching code.
+# Every key in the JSON files is listed here, so saving never drops content.
+content:
+  - name: settings
+    label: "Business details"
+    type: file
+    path: src/content/settings.json
+    format: json
+    fields:
+      - name: business_name
+        label: "Business name"
+        type: string
+      - name: legal_name
+        label: "Legal company name"
+        type: string
+      - name: site_url
+        label: "Website address"
+        type: string
+      - name: phone_display
+        label: "Phone (as shown)"
+        type: string
+      - name: phone_link
+        label: "Phone for calling (+1 and digits only)"
+        type: string
+      - name: whatsapp_number
+        label: "WhatsApp number (1 and digits only, leave empty to hide)"
+        type: string
+      - name: email
+        label: "Email"
+        type: string
+      - name: street
+        label: "Street"
+        type: string
+      - name: city
+        label: "City"
+        type: string
+      - name: state
+        label: "State"
+        type: string
+      - name: zip
+        label: "ZIP code"
+        type: string
+      - name: opening_hours_schema
+        label: "Opening hours for Google (example: Mo-Fr 09:00-17:00)"
+        type: string
+      - name: agency_license
+        label: "Florida agency license number"
+        type: string
+      - name: agent_in_charge
+        label: "Agent in charge (name and license number)"
+        type: string
+      - name: facebook_url
+        label: "Facebook link"
+        type: string
+      - name: instagram_url
+        label: "Instagram link"
+        type: string
+      - name: google_reviews_url
+        label: "Google reviews link"
+        type: string
+      - name: form_access_key
+        label: "Web3Forms access key"
+        type: string
+      - name: show_open_enrollment
+        label: "Show Open Enrollment dates"
+        type: boolean
+  - name: english
+    label: "Website text (English)"
+    type: file
+    path: src/content/en.json
+    format: json
+    fields:
+      - name: language_name
+        label: "Language name"
+        type: string
+      - name: meta
+        label: "Search engine text"
+        type: object
+        fields:
+          - name: title
+            label: "Title"
+            type: text
+          - name: description
+            label: "Description"
+            type: text
+      - name: nav
+        label: "Menu"
+        type: object
+        fields:
+          - name: skip
+            label: "Skip"
+            type: string
+          - name: health
+            label: "Health insurance section"
+            type: string
+          - name: other
+            label: "Other insurance section"
+            type: string
+          - name: about
+            label: "About us section"
+            type: string
+          - name: contact
+            label: "Contact section"
+            type: string
+          - name: quote
+            label: "Quote form"
+            type: string
+          - name: call
+            label: "Call"
+            type: string
+      - name: hero
+        label: "Top of the page"
+        type: object
+        fields:
+          - name: title
+            label: "Title"
+            type: string
+          - name: text
+            label: "Text"
+            type: text
+          - name: cta_call
+            label: "Call button"
+            type: string
+          - name: cta_quote
+            label: "Quote button"
+            type: string
+          - name: checks
+            label: "Check marks"
+            type: string
+            list: true
+          - name: photo_alt
+            label: "Photo description (for screen readers)"
+            type: string
+          - name: photo_caption
+            label: "Photo caption"
+            type: string
+      - name: enrollment
+        label: "Open Enrollment dates"
+        type: object
+        fields:
+          - name: title
+            label: "Title"
+            type: string
+          - name: text
+            label: "Text"
+            type: text
+          - name: next_label
+            label: "Next deadline label"
+            type: string
+          - name: cta
+            label: "Button text"
+            type: string
+          - name: steps
+            label: "Steps"
+            type: object
+            list: true
+            fields:
+              - name: date
+                label: "Date (YYYY-MM-DD)"
+                type: string
+              - name: label
+                label: "Date as shown"
+                type: string
+              - name: text
+                label: "Text"
+                type: string
+      - name: health
+        label: "Health insurance section"
+        type: object
+        fields:
+          - name: title
+            label: "Title"
+            type: string
+          - name: text
+            label: "Text"
+            type: text
+          - name: steps_title
+            label: "Steps heading"
+            type: string
+          - name: steps
+            label: "Steps"
+            type: object
+            list: true
+            fields:
+              - name: title
+                label: "Title"
+                type: string
+              - name: text
+                label: "Text"
+                type: text
+          - name: note
+            label: "Highlighted note"
+            type: text
+          - name: cta
+            label: "Button text"
+            type: string
+          - name: image_alt
+            label: "Photo description (for screen readers)"
+            type: string
+      - name: other
+        label: "Other insurance section"
+        type: object
+        fields:
+          - name: title
+            label: "Title"
+            type: string
+          - name: items
+            label: "Insurance types"
+            type: object
+            list: true
+            fields:
+              - name: type
+                label: "Type"
+                type: string
+              - name: title
+                label: "Title"
+                type: string
+              - name: text
+                label: "Text"
+                type: text
+              - name: link
+                label: "Link text"
+                type: string
+      - name: about
+        label: "About us section"
+        type: object
+        fields:
+          - name: title
+            label: "Title"
+            type: string
+          - name: paragraphs
+            label: "Paragraphs"
+            type: text
+            list: true
+          - name: team_title
+            label: "Team heading"
+            type: string
+          - name: team
+            label: "Team members"
+            type: object
+            list: true
+            fields:
+              - name: name
+                label: "Name"
+                type: string
+              - name: role
+                label: "Role"
+                type: string
+          - name: image_alt
+            label: "Photo description (for screen readers)"
+            type: string
+      - name: quote
+        label: "Quote form"
+        type: object
+        fields:
+          - name: title
+            label: "Title"
+            type: string
+          - name: text
+            label: "Text"
+            type: text
+          - name: name
+            label: "Name"
+            type: string
+          - name: phone
+            label: "Phone"
+            type: string
+          - name: email
+            label: "Email"
+            type: string
+          - name: type
+            label: "Type"
+            type: string
+          - name: language
+            label: "Language"
+            type: string
+          - name: message
+            label: "Message"
+            type: string
+          - name: message_hint
+            label: "Message hint"
+            type: string
+          - name: types
+            label: "Insurance choices"
+            type: object
+            list: true
+            fields:
+              - name: value
+                label: "Value (do not translate)"
+                type: string
+              - name: label
+                label: "Date as shown"
+                type: string
+          - name: languages
+            label: "Language choices"
+            type: object
+            list: true
+            fields:
+              - name: value
+                label: "Value (do not translate)"
+                type: string
+              - name: label
+                label: "Date as shown"
+                type: string
+          - name: consent
+            label: "Consent"
+            type: text
+          - name: submit
+            label: "Submit"
+            type: string
+          - name: sending
+            label: "Sending"
+            type: string
+          - name: success
+            label: "Success"
+            type: string
+          - name: error
+            label: "Error"
+            type: string
+          - name: mailto_note
+            label: "Note when email app opens"
+            type: text
+      - name: contact
+        label: "Contact section"
+        type: object
+        fields:
+          - name: title
+            label: "Title"
+            type: string
+          - name: phone
+            label: "Phone"
+            type: string
+          - name: whatsapp
+            label: "Whatsapp"
+            type: string
+          - name: whatsapp_text
+            label: "WhatsApp link text"
+            type: string
+          - name: whatsapp_prefill
+            label: "WhatsApp starting message"
+            type: string
+          - name: email
+            label: "Email"
+            type: string
+          - name: address
+            label: "Address"
+            type: string
+          - name: directions
+            label: "Directions"
+            type: string
+          - name: hours_title
+            label: "Hours heading"
+            type: string
+          - name: hours
+            label: "Opening hours"
+            type: object
+            list: true
+            fields:
+              - name: days
+                label: "Days"
+                type: string
+              - name: time
+                label: "Time"
+                type: string
+          - name: map_title
+            label: "Map description"
+            type: string
+      - name: footer
+        label: "Footer"
+        type: object
+        fields:
+          - name: tagline
+            label: "Tagline"
+            type: string
+          - name: license_label
+            label: "License label"
+            type: string
+          - name: agent_label
+            label: "Agent in charge label"
+            type: string
+          - name: disclaimer
+            label: "Disclaimer"
+            type: text
+          - name: privacy
+            label: "Privacy policy page"
+            type: string
+          - name: rights
+            label: "Rights"
+            type: string
+          - name: follow
+            label: "Follow"
+            type: string
+      - name: mobile_bar
+        label: "Phone buttons (mobile)"
+        type: object
+        fields:
+          - name: call
+            label: "Call"
+            type: string
+          - name: quote
+            label: "Quote form"
+            type: string
+      - name: privacy
+        label: "Privacy policy page"
+        type: object
+        fields:
+          - name: title
+            label: "Title"
+            type: string
+          - name: updated
+            label: "Updated"
+            type: string
+          - name: back
+            label: "Back"
+            type: string
+          - name: sections
+            label: "Sections"
+            type: object
+            list: true
+            fields:
+              - name: title
+                label: "Title"
+                type: string
+              - name: text
+                label: "Text"
+                type: text
+      - name: not_found
+        label: "Page not found"
+        type: object
+        fields:
+          - name: title
+            label: "Title"
+            type: string
+          - name: text
+            label: "Text"
+            type: string
+          - name: link
+            label: "Link text"
+            type: string
+  - name: spanish
+    label: "Website text (Español)"
+    type: file
+    path: src/content/es.json
+    format: json
+    fields:
+      - name: language_name
+        label: "Language name"
+        type: string
+      - name: meta
+        label: "Search engine text"
+        type: object
+        fields:
+          - name: title
+            label: "Title"
+            type: string
+          - name: description
+            label: "Description"
+            type: text
+      - name: nav
+        label: "Menu"
+        type: object
+        fields:
+          - name: skip
+            label: "Skip"
+            type: string
+          - name: health
+            label: "Health insurance section"
+            type: string
+          - name: other
+            label: "Other insurance section"
+            type: string
+          - name: about
+            label: "About us section"
+            type: string
+          - name: contact
+            label: "Contact section"
+            type: string
+          - name: quote
+            label: "Quote form"
+            type: string
+          - name: call
+            label: "Call"
+            type: string
+      - name: hero
+        label: "Top of the page"
+        type: object
+        fields:
+          - name: title
+            label: "Title"
+            type: string
+          - name: text
+            label: "Text"
+            type: text
+          - name: cta_call
+            label: "Call button"
+            type: string
+          - name: cta_quote
+            label: "Quote button"
+            type: string
+          - name: checks
+            label: "Check marks"
+            type: string
+            list: true
+          - name: photo_alt
+            label: "Photo description (for screen readers)"
+            type: string
+          - name: photo_caption
+            label: "Photo caption"
+            type: string
+      - name: enrollment
+        label: "Open Enrollment dates"
+        type: object
+        fields:
+          - name: title
+            label: "Title"
+            type: string
+          - name: text
+            label: "Text"
+            type: text
+          - name: next_label
+            label: "Next deadline label"
+            type: string
+          - name: cta
+            label: "Button text"
+            type: string
+          - name: steps
+            label: "Steps"
+            type: object
+            list: true
+            fields:
+              - name: date
+                label: "Date (YYYY-MM-DD)"
+                type: string
+              - name: label
+                label: "Date as shown"
+                type: string
+              - name: text
+                label: "Text"
+                type: string
+      - name: health
+        label: "Health insurance section"
+        type: object
+        fields:
+          - name: title
+            label: "Title"
+            type: string
+          - name: text
+            label: "Text"
+            type: text
+          - name: steps_title
+            label: "Steps heading"
+            type: string
+          - name: steps
+            label: "Steps"
+            type: object
+            list: true
+            fields:
+              - name: title
+                label: "Title"
+                type: string
+              - name: text
+                label: "Text"
+                type: text
+          - name: note
+            label: "Highlighted note"
+            type: text
+          - name: cta
+            label: "Button text"
+            type: string
+          - name: image_alt
+            label: "Photo description (for screen readers)"
+            type: string
+      - name: other
+        label: "Other insurance section"
+        type: object
+        fields:
+          - name: title
+            label: "Title"
+            type: string
+          - name: items
+            label: "Insurance types"
+            type: object
+            list: true
+            fields:
+              - name: type
+                label: "Type"
+                type: string
+              - name: title
+                label: "Title"
+                type: string
+              - name: text
+                label: "Text"
+                type: text
+              - name: link
+                label: "Link text"
+                type: string
+      - name: about
+        label: "About us section"
+        type: object
+        fields:
+          - name: title
+            label: "Title"
+            type: string
+          - name: paragraphs
+            label: "Paragraphs"
+            type: text
+            list: true
+          - name: team_title
+            label: "Team heading"
+            type: string
+          - name: team
+            label: "Team members"
+            type: object
+            list: true
+            fields:
+              - name: name
+                label: "Name"
+                type: string
+              - name: role
+                label: "Role"
+                type: string
+          - name: image_alt
+            label: "Photo description (for screen readers)"
+            type: string
+      - name: quote
+        label: "Quote form"
+        type: object
+        fields:
+          - name: title
+            label: "Title"
+            type: string
+          - name: text
+            label: "Text"
+            type: text
+          - name: name
+            label: "Name"
+            type: string
+          - name: phone
+            label: "Phone"
+            type: string
+          - name: email
+            label: "Email"
+            type: string
+          - name: type
+            label: "Type"
+            type: string
+          - name: language
+            label: "Language"
+            type: string
+          - name: message
+            label: "Message"
+            type: string
+          - name: message_hint
+            label: "Message hint"
+            type: string
+          - name: types
+            label: "Insurance choices"
+            type: object
+            list: true
+            fields:
+              - name: value
+                label: "Value (do not translate)"
+                type: string
+              - name: label
+                label: "Date as shown"
+                type: string
+          - name: languages
+            label: "Language choices"
+            type: object
+            list: true
+            fields:
+              - name: value
+                label: "Value (do not translate)"
+                type: string
+              - name: label
+                label: "Date as shown"
+                type: string
+          - name: consent
+            label: "Consent"
+            type: text
+          - name: submit
+            label: "Submit"
+            type: string
+          - name: sending
+            label: "Sending"
+            type: string
+          - name: success
+            label: "Success"
+            type: string
+          - name: error
+            label: "Error"
+            type: string
+          - name: mailto_note
+            label: "Note when email app opens"
+            type: text
+      - name: contact
+        label: "Contact section"
+        type: object
+        fields:
+          - name: title
+            label: "Title"
+            type: string
+          - name: phone
+            label: "Phone"
+            type: string
+          - name: whatsapp
+            label: "Whatsapp"
+            type: string
+          - name: whatsapp_text
+            label: "WhatsApp link text"
+            type: string
+          - name: whatsapp_prefill
+            label: "WhatsApp starting message"
+            type: string
+          - name: email
+            label: "Email"
+            type: string
+          - name: address
+            label: "Address"
+            type: string
+          - name: directions
+            label: "Directions"
+            type: string
+          - name: hours_title
+            label: "Hours heading"
+            type: string
+          - name: hours
+            label: "Opening hours"
+            type: object
+            list: true
+            fields:
+              - name: days
+                label: "Days"
+                type: string
+              - name: time
+                label: "Time"
+                type: string
+          - name: map_title
+            label: "Map description"
+            type: string
+      - name: footer
+        label: "Footer"
+        type: object
+        fields:
+          - name: tagline
+            label: "Tagline"
+            type: string
+          - name: license_label
+            label: "License label"
+            type: string
+          - name: agent_label
+            label: "Agent in charge label"
+            type: string
+          - name: disclaimer
+            label: "Disclaimer"
+            type: text
+          - name: privacy
+            label: "Privacy policy page"
+            type: string
+          - name: rights
+            label: "Rights"
+            type: string
+          - name: follow
+            label: "Follow"
+            type: string
+      - name: mobile_bar
+        label: "Phone buttons (mobile)"
+        type: object
+        fields:
+          - name: call
+            label: "Call"
+            type: string
+          - name: quote
+            label: "Quote form"
+            type: string
+      - name: privacy
+        label: "Privacy policy page"
+        type: object
+        fields:
+          - name: title
+            label: "Title"
+            type: string
+          - name: updated
+            label: "Updated"
+            type: string
+          - name: back
+            label: "Back"
+            type: string
+          - name: sections
+            label: "Sections"
+            type: object
+            list: true
+            fields:
+              - name: title
+                label: "Title"
+                type: string
+              - name: text
+                label: "Text"
+                type: text
+      - name: not_found
+        label: "Page not found"
+        type: object
+        fields:
+          - name: title
+            label: "Title"
+            type: string
+          - name: text
+            label: "Text"
+            type: text
+          - name: link
+            label: "Link text"
+            type: string

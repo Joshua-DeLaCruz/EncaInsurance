@@ -1,0 +1,147 @@
+{
+  "language_name": "Español",
+  "meta": {
+    "title": "Enca Insurance | Seguro de salud, vida, auto y hogar en West Park, FL",
+    "description": "Agencia de seguros bilingüe en West Park, Florida. Le ayudamos con planes de salud de Obamacare y con seguros de vida, auto y hogar. Llame al (786) 728-1828 para una cotización gratis."
+  },
+  "nav": {
+    "skip": "Ir al contenido",
+    "health": "Salud",
+    "other": "Otros seguros",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "quote": "Cotizar",
+    "call": "Llamar"
+  },
+  "hero": {
+    "title": "Le ayudamos con su seguro de salud, en español y en inglés.",
+    "text": "Somos una agencia local en West Park. Comparamos planes de salud por usted, revisamos si califica para recibir ayuda con el pago y hacemos la inscripción. También ofrecemos seguros de vida, auto y hogar.",
+    "cta_call": "Llame al {phone}",
+    "cta_quote": "Cotización gratis",
+    "checks": ["Agentes con licencia", "Cotizaciones gratis", "Oficina en West Park"],
+    "photo_alt": "Recepción de la oficina de Enca Insurance",
+    "photo_caption": "Nuestra oficina en West Park"
+  },
+  "enrollment": {
+    "title": "La inscripción abierta para los planes de salud de 2027 ya comenzó.",
+    "text": "Si no tiene seguro de salud por medio de su trabajo, este es el momento de inscribirse o de cambiar su plan para 2027.",
+    "next_label": "Próxima fecha límite",
+    "cta": "Pida una cita",
+    "steps": [
+      { "date": "2026-11-01", "label": "1 de nov. de 2026", "text": "Comienza la inscripción abierta." },
+      { "date": "2026-12-15", "label": "15 de dic. de 2026", "text": "Último día para inscribirse y tener cobertura desde el 1 de enero." },
+      { "date": "2027-01-15", "label": "15 de ene. de 2027", "text": "Termina la inscripción abierta. Los planes elegidos después del 15 de diciembre comienzan el 1 de febrero." }
+    ]
+  },
+  "health": {
+    "title": "Seguro de salud (Obamacare)",
+    "text": "Los planes de la Ley de Cuidado de Salud Asequible, conocidos como Obamacare, son para personas que no reciben seguro de salud por medio de su trabajo. Muchas personas califican para ayuda financiera que reduce el pago mensual. Averiguamos para qué califica usted y le explicamos sus opciones con palabras sencillas.",
+    "steps_title": "Cómo le ayudamos",
+    "steps": [
+      { "title": "Cuéntenos sobre su hogar", "text": "Quién necesita cobertura, su código postal y los ingresos que espera tener el próximo año. Por teléfono o en nuestra oficina." },
+      { "title": "Comparamos sus opciones", "text": "Revisamos los planes de su zona, el pago mensual, los deducibles y qué médicos están incluidos." },
+      { "title": "Hacemos su inscripción y seguimos a su lado", "text": "Completamos su inscripción y le ayudamos durante el año con preguntas, cambios y renovaciones." }
+    ],
+    "note": "Nuestra ayuda es gratis. El plan cuesta lo mismo que si se inscribiera por su cuenta.",
+    "cta": "Preguntar por seguro de salud",
+    "image_alt": "Una pareja recibe ayuda para elegir un plan de salud"
+  },
+  "other": {
+    "title": "Otros seguros que ofrecemos",
+    "items": [
+      { "type": "Life", "title": "Seguro de vida", "text": "Proteja el futuro de su familia. Le ayudamos a elegir entre un seguro de vida a término o permanente, con una suma que se ajuste a su presupuesto.", "link": "Preguntar por seguro de vida" },
+      { "type": "Auto", "title": "Seguro de auto", "text": "Cobertura que cumple con los requisitos de Florida, con opciones para más protección. Comparamos precios para que no pague más de lo necesario.", "link": "Preguntar por seguro de auto" },
+      { "type": "Home", "title": "Seguro de hogar", "text": "Cobertura para su casa y sus pertenencias, y ayuda para entender su protección contra huracanes e inundaciones.", "link": "Preguntar por seguro de hogar" }
+    ]
+  },
+  "about": {
+    "title": "Sobre Enca Insurance",
+    "paragraphs": [
+      "Enca Insurance es una agencia de seguros en West Park, Florida. Ayudamos a personas y familias a encontrar seguros de salud, vida, auto y hogar, en español y en inglés.",
+      "Nos tomamos el tiempo de explicarle cada opción con palabras sencillas, para que sepa lo que está pagando antes de decidir. Su seguridad es nuestra prioridad.",
+      "[Breve historia: cuándo y por qué empezó Enca]"
+    ],
+    "team_title": "Nuestro equipo",
+    "team": [
+      { "name": "Emma Luz De la Cruz", "role": "Propietaria" },
+      { "name": "Carlos Andres Zambrano", "role": "Agente principal" }
+    ],
+    "image_alt": "Un agente saluda a una pareja después de una reunión"
+  },
+  "quote": {
+    "title": "Pida una cotización gratis",
+    "text": "Llene el formulario y un agente se comunicará con usted. ¿Prefiere hablar ahora? Llámenos al {phone}.",
+    "name": "Nombre completo",
+    "phone": "Teléfono",
+    "email": "Correo electrónico (opcional)",
+    "type": "Tipo de seguro",
+    "language": "Idioma preferido",
+    "message": "Mensaje (opcional)",
+    "message_hint": "Por favor no incluya números de Seguro Social ni de póliza.",
+    "types": [
+      { "value": "Health", "label": "Salud (Obamacare)" },
+      { "value": "Life", "label": "Vida" },
+      { "value": "Auto", "label": "Auto" },
+      { "value": "Home", "label": "Hogar" },
+      { "value": "Other", "label": "Otro / todavía no sé" }
+    ],
+    "languages": [
+      { "value": "Spanish", "label": "Español" },
+      { "value": "English", "label": "Inglés" }
+    ],
+    "consent": "Al enviar este formulario, acepta que Enca Insurance se comunique con usted por teléfono, mensaje de texto o correo electrónico sobre su solicitud.",
+    "submit": "Enviar mi solicitud",
+    "sending": "Enviando…",
+    "success": "Gracias. Recibimos su solicitud y nos comunicaremos con usted pronto.",
+    "error": "No se pudo enviar su solicitud. Por favor llámenos al {phone}.",
+    "mailto_note": "Se abrirá su aplicación de correo con su solicitud. Presione enviar para terminar."
+  },
+  "contact": {
+    "title": "Visítenos o llámenos",
+    "phone": "Teléfono",
+    "whatsapp": "WhatsApp",
+    "whatsapp_text": "Escríbanos por WhatsApp",
+    "whatsapp_prefill": "Hola, quisiera información sobre seguros.",
+    "email": "Correo",
+    "address": "Dirección",
+    "directions": "Cómo llegar",
+    "hours_title": "Horario",
+    "hours": [
+      { "days": "Lunes a viernes", "time": "9:00 a. m. – 5:00 p. m." },
+      { "days": "Sábado y domingo", "time": "Cerrado" }
+    ],
+    "map_title": "Mapa de la oficina de Enca Insurance en West Park"
+  },
+  "footer": {
+    "tagline": "Su seguridad es nuestra prioridad.",
+    "license_label": "Licencia de agencia en Florida",
+    "agent_label": "Agente a cargo",
+    "disclaimer": "Enca Insurance es una agencia de seguros con licencia. No estamos conectados con HealthCare.gov ni con ninguna agencia del gobierno.",
+    "privacy": "Política de privacidad",
+    "rights": "Todos los derechos reservados.",
+    "follow": "Síganos"
+  },
+  "mobile_bar": {
+    "call": "Llamar",
+    "quote": "Cotizar"
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "updated": "Última actualización: 14 de noviembre de 2026",
+    "back": "Volver a la página principal",
+    "sections": [
+      { "title": "Quiénes somos", "text": "Este sitio web pertenece a Enca Insurance Agents Corp., 4200 SW 28th St, West Park, FL 33023." },
+      { "title": "Qué información recibimos", "text": "Cuando usa nuestro formulario de cotización, recibimos lo que usted escribe: su nombre, teléfono, correo electrónico, el tipo de seguro que le interesa, su idioma preferido y su mensaje. En este sitio web no pedimos números de Seguro Social, números de póliza ni datos de pago." },
+      { "title": "Cómo la usamos", "text": "Usamos esta información solo para responder a su solicitud y darle cotizaciones de seguros. No vendemos ni alquilamos su información." },
+      { "title": "Servicios que usamos", "text": "Web3Forms entrega nuestro formulario de cotización a nuestro correo. El mapa de la sección de contacto es de Google Maps, que puede usar cookies según su propia política de privacidad. Este sitio web no usa cookies de seguimiento ni de publicidad." },
+      { "title": "Por cuánto tiempo la guardamos", "text": "Guardamos su solicitud el tiempo necesario para ayudarle y para cumplir con nuestras obligaciones de registro como agencia de seguros con licencia." },
+      { "title": "Sus opciones", "text": "Puede pedirnos en cualquier momento que actualicemos o eliminemos la información que nos envió por este sitio web. Escríbanos a {email} o llámenos al {phone}." },
+      { "title": "Cambios a esta política", "text": "Si cambiamos esta política, actualizaremos la fecha al principio de esta página." }
+    ]
+  },
+  "not_found": {
+    "title": "Página no encontrada",
+    "text": "Esta página no existe. Vaya a la página principal o llámenos al {phone}.",
+    "link": "Ir a la página principal"
+  }
+}
